@@ -10,7 +10,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(yodel)
-  yodel.map {|call| call.length >= 4}
+  yodel.detect {|call| call.length >= 4}
 end
 
 def find_the_cheese(list)
