@@ -9,11 +9,11 @@ def summon_captain_planet(array)
   array.collect {|call| "#{call.capitalize}!"}
 end
 
-def long_planeteer_calls(yodel)
-  yodel.include?(word.length >= 4)
-end
+# def long_planeteer_calls(yodel)
+#   yodel.include?(word.length >= 4)
+# end
 
 def find_the_cheese(list)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.included_in?([list])
+  cheese_types.include?([list])
 end
