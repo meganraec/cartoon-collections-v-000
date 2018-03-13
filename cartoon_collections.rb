@@ -10,8 +10,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(yodel)
-  yodel.each {|call| yodel.any? === (call.length >= 4)}
-
+  yodel.each {|word| word.length >= 4}
 end
 
 def find_the_cheese(list)
